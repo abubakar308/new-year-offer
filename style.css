@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+}
+/* happy new year start */
+.bg-image{
+    height: 600px;
+background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url(".//images/Banner.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 50px 140px;
+}
+.bg-contaainer{
+    text-align: center;
+}
+.heder{
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 24px;
+font-weight: 300
+}
+.hader{
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 60px;
+font-weight: 700;
+margin-top: 20px;
+}
+/* happy new year end */
+
+/* 65% of start */
+.top-item{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 80px;
+font-weight: 800;
+}
+.item{
+    text-align: center;
+    margin: 50px 140px;
+}
+.holyday{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.catagory{color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+/* 65% of end */
+
+/* Welcome to midnight party start */
+.welcome{
+    border-radius: 16px;
+background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url(images/Vectorrr.png);
+height: 600px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 50px 140px;
+}
+.l-part{
+    padding-top: 100px;
+    margin-left: 120px;
+}
+.midnight{
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+}
+.mdpara{
+    color: rgba(255, 255, 255, 0.8);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+width: 697px;
+height: 60px;
+}
+.btn{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+}
+.r-part{
+    width: 319.83px;
+height: 464.66px;
+margin-top: 40px;
+margin-left: 20px;
+}
+/* Welcome to midnight party end */
+
+/* design no 4 start */
+.event{
+    border-radius: 16px;
+background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+height: 600px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 50px 140px;
+}
+.event-li{
+    font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+
+}
+span{
+   color: rgb(255, 0, 0);
+}
+button{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+width: 150px;
+padding: 10px 22px;
+border-radius: 8px;
+background: rgb(255, 0, 0);
+margin-top: 30px;
+}
+/* design no 4 end */
+
+
+.offer{
+    height: 600px;
+display: flex;
+gap: 80px;
+align-items: center;
+justify-content: center;
+margin: 50px 140px;
+}
+.l-div{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  margin-top: 120px;
+}
+.l-para{
+    text-align: justify;
+  
+    height: 255px;
+}
+.m-div{
+    padding: 20px;
+    border: 10px solid red;
+   border-radius: 50%;
+
+}
+.year{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+}
+.r-div{
+  
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    -ms-flex-align: end;
+}
+.function{
+padding-top: 100px;
+    margin: 50px 140px;
+    height: 600px;
+    position: relative;
+    padding-bottom: 50px;
+    margin-bottom: 320px;
+}    
+.func-text{
+    text-align: center;
+}
+.funcbott{
+    height: 200px;
+    background-color: red;
+    margin-top: 400px;
+  position: relative;
+}
+.func-l{
+    position: absolute;
+    margin-top: -500px;
+    height: 500px;
+}
+.func-r{
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 750px;
+}
+.func-l>img{
+    height: 100%;
+}
+.portfolio{
+    height: 650px;
+    margin: 50px 140px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+    padding-top: 100px;
+}
+.Sale{
+    font-family: Merriweather;
+font-size: 60px;
+font-weight: 800;
+}
+.port-gift{  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    
+height: 42px;
+}
+.giftbox{
+   height: 250px;
+}
+.giftbox>img{
+   height: 100%;
+    width: 100%;
+   
+}
+.subscribe{
+    border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+height: 600px;
+margin: 50px 140px;
+padding-top: 60px;
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+}
+.sub-bttn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+}
+input{
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+background: rgb(255, 255, 255);
+height: 30px;
+width: 300px;
+color: rgba(7, 2, 17, 0.3);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400
+}
+.bttn{
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    height: 30px;
+width: 150px;
+margin-bottom: 30px;
+padding: 5px;
+}
+footer{
+    height: 600px;
+   margin: 50px 140px;
+    background-color: black;
+}
+.top-t{
+    color: azure;
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+}
+.icon{
+    text-align: center;
+    margin-top: 150px;
+}
+a{
+    margin: 10px;
+}
+.icon>img{
+    margin: 10px;
+}
+.top-bt{
+    color: azure;
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-around;
+}
